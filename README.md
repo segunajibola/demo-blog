@@ -1,4 +1,11 @@
-jfjdgbdgdg
+# Incase of error 
+
+This is a blog demo to test React and JSON Database, and at such the project was built on live-server set-up. Lauching this project at https://segunajibola-demo-blog.vercel.app/ will give an error if you don't clone this project and set-up the live-server and database.
+
+Set up database here
+`npx json-server --watch data/db.json --port 8000`
+Run localhost  
+`npm start`
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
