@@ -1,51 +1,45 @@
 {
   "blogs": [
     {
-      "title": "g",
-      "body": "ggg",
-      "author": "",
+      "title": "First blog",
+      "body": "This is the first blog",
+      "author": "Taylor",
       "id": 3
     },
     {
-      "title": "fef",
-      "body": "were",
-      "author": "yoshi",
-      "id": 4
-    },
-    {
-      "title": "fef",
-      "body": "were",
-      "author": "yoshi",
+      "title": "Second blog",
+      "body": "This is the second blog",
+      "author": "John",
       "id": 5
     },
     {
-      "title": "hgff",
-      "body": "cgtd",
-      "author": "yoshi",
+      "title": "Third blog",
+      "body": "This is the third blog",
+      "author": "Kent",
       "id": 6
     },
     {
-      "title": "gg",
-      "body": "hyy",
-      "author": "yoshi",
+      "title": "Fourth blog",
+      "body": "This is the fourth blog",
+      "author": "Joe",
       "id": 7
     },
     {
-      "title": "kkk",
-      "body": "kkk",
-      "author": "",
+      "title": "Fifth blog",
+      "body": "This is the fifth blog",
+      "author": "Alan",
       "id": 8
     },
     {
-      "title": "iuhi",
-      "body": "gdt",
-      "author": "",
+      "title": "Sixth blog",
+      "body": "This is the sixth blog",
+      "author": "Haris",
       "id": 9
     },
     {
-      "title": "My first day at school",
-      "body": "Lorem .......",
-      "author": "yoshi",
+      "title": "Seventh blog",
+      "body": "This is the seventh blog",
+      "author": "Pamela",
       "id": 10
     }
   ]
