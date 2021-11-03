@@ -4,7 +4,13 @@ import BlogList from "./BlogList"
 
 const Home = () => {  
     const { data: blogs, isPending, error } = useFetch("http://localhost:8000/blogs")
+    //useFetch("http://localhost:8000/blogs")
 
+    //https://demo-blog-87vrgpw8x-segunajibola.vercel.app/ vercel link
+    //192.168.25.25 my ip address
+    //https://stackoverflow.com/questions/55813071/why-is-fetch-not-working-on-my-mobile-browser
+    //In the "Build & Development Settings", override the Build command and write CI='' npm run build.
+    
     //const [name, setName] = useState("mario");
 
     // const handleDelete = (id) => {
