@@ -4,13 +4,14 @@ import BlogList from "./BlogList"
 
 const Home = () => {  
     const { data: blogs, isPending, error } = useFetch("http://localhost:8000/blogs")
+
     //useFetch("http://localhost:8000/blogs")
 
     //https://demo-blog-87vrgpw8x-segunajibola.vercel.app/ vercel link
     //192.168.25.25 my ip address
     //https://stackoverflow.com/questions/55813071/why-is-fetch-not-working-on-my-mobile-browser
     //In the "Build & Development Settings", override the Build command and write CI='' npm run build.
-    
+
     //const [name, setName] = useState("mario");
 
     // const handleDelete = (id) => {
@@ -27,7 +28,7 @@ const Home = () => {
     //       console.log(blogs[1].title)
     // }
 
-    let cities = ["Madrid ", "Lagos ", "Tokyo "];
+    /* let cities = ["Madrid ", "Lagos ", "Tokyo "];
     cities.push("Abuja ");
     cities.pop();
 
@@ -63,7 +64,7 @@ const Home = () => {
     const changeDetails = () => {
         setUser("Tayo")
         setAge("17")
-    }
+    } */
 
     return (
         <div className="home">
@@ -76,14 +77,14 @@ const Home = () => {
             
             {/* <h2>{ blogs[0].title } and { blogs[1].body }</h2>
             <button onClick={handleClick}>Change blog title</button> */}
-            <h2>{ cities[0] }</h2>
+            {/* <h2>{ cities[0] }</h2>
             <button onClick={consolecities}>console for cities</button>
             <h2>{ location[0].country }</h2>
             <button onClick={countryFunc}>Change country console</button>
             <h2>{ fruits.flavour }</h2>
             <button onClick={fruitsFunc}>Click4</button>
             <h2>{user} is {age} years old</h2>
-            <button id="demo" onClick={changeDetails}>Show Tayo age</button>
+            <button id="demo" onClick={changeDetails}>Show Tayo age</button> */}
         </div>
     )
 };
