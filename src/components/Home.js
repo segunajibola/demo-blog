@@ -3,7 +3,8 @@ import useFetch from "../useFetch";
 import BlogList from "./BlogList"
 
 const Home = () => {  
-    const { data: blogs, isPending, error } = useFetch("http://localhost:8000/blogs")
+    const { data: blogs, isPending, error } = useFetch("./../data/db.json/blogs")
+
 
     //useFetch("http://localhost:8000/blogs")
 
@@ -70,7 +71,7 @@ const Home = () => {
         <div className="home">
             {/* <h2>{name}</h2>
             <button onClick={() => setName("luigi")}>Change name</button> */}
-            { error && <div className="homeError">Sorry for the error. You encountered this error because this project is a blog demo to test React and JSON Database. It can only work on desktop with live-server and  set-up ello</div>}
+            { error && <div className="homeError">Sorry for the error. You encountered this error because this project is a blog demo to test React and JSON Database. For now, it can only work on desktop with live-server and database set-up. Check the <a href="https://github.com/segunajibola/demo-blog#readme">Readme file on Github</a> for details to make it work.</div>}
             { isPending && <div>Blogs loading...</div>}
             { blogs && <BlogList blogs={blogs} title="All blogs!" /> }
             { blogs && <BlogList blogs={blogs.filter((eachBlog) => eachBlog.author === "mario")} title="Mario blogs!" />}
