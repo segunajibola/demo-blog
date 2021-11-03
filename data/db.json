@@ -1,18 +1,6 @@
 {
   "blogs": [
     {
-      "title": "First blog",
-      "body": "This is the first blog",
-      "author": "Taylor",
-      "id": 3
-    },
-    {
-      "title": "Second blog",
-      "body": "This is the second blog",
-      "author": "John",
-      "id": 5
-    },
-    {
       "title": "Third blog",
       "body": "This is the third blog",
       "author": "Kent",
