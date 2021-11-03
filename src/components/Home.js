@@ -70,7 +70,7 @@ const Home = () => {
         <div className="home">
             {/* <h2>{name}</h2>
             <button onClick={() => setName("luigi")}>Change name</button> */}
-            { error && <div>{ error }</div>}
+            { error && <div>hello</div>}
             { isPending && <div>Blogs loading...</div>}
             { blogs && <BlogList blogs={blogs} title="All blogs!" /> }
             { blogs && <BlogList blogs={blogs.filter((eachBlog) => eachBlog.author === "mario")} title="Mario blogs!" />}
