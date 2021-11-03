@@ -70,7 +70,7 @@ const Home = () => {
         <div className="home">
             {/* <h2>{name}</h2>
             <button onClick={() => setName("luigi")}>Change name</button> */}
-            { error && <div>hello</div>}
+            { error && <div className="homeError">Sorry for the error. You encountered this error because this project is a blog demo to test React and JSON Database. It can only work on desktop with live-server and  set-up ello</div>}
             { isPending && <div>Blogs loading...</div>}
             { blogs && <BlogList blogs={blogs} title="All blogs!" /> }
             { blogs && <BlogList blogs={blogs.filter((eachBlog) => eachBlog.author === "mario")} title="Mario blogs!" />}
